@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div><h1>Angel - The Virtual CTLS Assistant</h1></div>
+    <div id="webchat" role="main"></div>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script>
+      window.WebChat.renderWebChat({
+        directLine: window.WebChat.createDirectLine({ secret: 'kd3CdbNs6is.tmE5e2FawopWk4icHVqKF64n_zSwawYfiRjewMMiwu0' }),
+        userID: 'YOUR_USER_ID',
+        username: 'Web Chat User',
+        locale: 'en-US',
+        botAvatarInitials: 'Ngel',
+        userAvatarInitials: 'You'
+      }, document.getElementById('webchat'));
+    </script>
+  </body>
+</html>
