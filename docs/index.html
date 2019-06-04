@@ -5,21 +5,6 @@
   <head>
   
     <link href="https://raw.githubusercontent.com/sylvainpaq/cannabis-knights/master/docs/botchat.css" rel="stylesheet" />
-  
-    <script language="JavaScript">
-
-        function styleMenu(currMenu) {
-        thisMenu = document.getElementById(currMenu)
-        if (thisMenu.style.display=="")
-            {thisMenu.style.display="none";}
-        else
-            {thisMenu.style.display="";
-            source=document.getElementById('select_menu').options[document.getElementById('select_menu').selectedIndex];
-            document.getElementById('style_frame').src = source.value;}
-
-        }
-    
-    </script>
     
   </head>
   
@@ -29,17 +14,9 @@
 
     <div id="webchat">
 
-        <iframe src='https://webchat.botframework.com/embed/daan-angel-bot?s=9pS5elo9nNk.mTzx3_aXq8ZUdh1HHuBol7udzJeA7QRSd7okMpRMKRk'  id="style_frame" name="style_frame" width="100%" scrolling="yes" height="100%%"></iframe>
+        <iframe src='https://webchat.botframework.com/embed/daan-angel-bot?s=9pS5elo9nNk.mTzx3_aXq8ZUdh1HHuBol7udzJeA7QRSd7okMpRMKRk'></iframe>
     
     </div>
-
-    <SELECT id="select_menu" style="visibility:hidden">
-    <option value="http://www.google.com#style5A">1st</option>
-</SELECT>
-<br>
-<input type="button" id="toggle" value="Search" onclick="styleMenu('style_frame');">
-<IFRAME id="style_frame" name="style_frame" width="100%" scrolling="yes" height="100%%"></IFRAME>
-<br>&nbsp;
     
   </body>
 
